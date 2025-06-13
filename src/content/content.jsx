@@ -1,14 +1,14 @@
-import logo from "../assets/imgs/logo/logo.webp";
+import logo from "../assets/imgs/logo/logo.png";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.webp";
+import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutImg1 from "../assets/imgs/about/aboutImg.png";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
@@ -17,7 +17,7 @@ import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Cabral Advocacia",
+  name: "Dra. Ana Paula Moraes",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "cabralinstitucionaladv.com.br", // Sem "www"
+  domain: "anapaulamoraesadvogada.com.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "91195", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2525", // Apenas os 4 últimos números
+    ddd: "51",
+    firstPart: "8456", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5921", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Alameda Terracota, nº 185,</p>
-      <p>Cerâmica São Caetano do Sul - SP,</p>
-      <p>CEP : 09531-190</p>
+      <p>Av. Princesa Isabel , N° 57, Sala 408,</p>
+      <p>Azenha Porto Alegre - RS,</p>
+      <p>CEP: 90620-000</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,12 +92,12 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>9h às 17h</p>
+      <p>9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "advocaciacabral_oficial", // Sem o @
-  facebookProfile: "emerson.batistacabral",
+  instagramProfile: "ana_paula_moraes_advogada", // Sem o @
+  facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -123,20 +123,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO EM SÃO CAETANO DO SUL - SP",
+      miniTag: "ADVOGADA PREVIDENCIÁRIA E TRABALHISTA EM PORTO ALEGRE - RS",
       title: (
         <h1 className="mb-[16px]">
-          Seus direitos, nossa
-          <span className="text-primary"> prioridade!</span>
+          Direitos ignorados custam
+          <span className="text-primary"> caro</span>
         </h1>
       ),
-      subtitle: "Excelência no presente, tranquilidade no futuro.",
+      subtitle:
+        "Proteja seu futuro com quem entende de Direito Previdenciário e Trabalhista.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Fale conosco",
+      ctaButtonText: "Descubra agora",
       obsHero: {
         icon: (
           <svg
@@ -182,10 +183,10 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Especialidades que fazem a diferença",
+      miniTag: "ONDE ATUAMOS",
+      title: "Proteção para seus direitos",
       subtitle:
-        "Conheça as áreas onde oferecemos expertise para garantir seus direitos com excelência.",
+        "Soluções jurídicas focadas em Direito Previdenciário e Trabalhista para você.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
@@ -247,13 +248,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-calendar-check-icon lucide-calendar-check"
+            class="lucide lucide-user-check-icon lucide-user-check"
           >
-            <path d="M8 2v4" />
-            <path d="M16 2v4" />
-            <rect width="18" height="18" x="3" y="4" rx="2" />
-            <path d="M3 10h18" />
-            <path d="m9 16 2 2 4-4" />
+            <path d="m16 11 2 2 4-4" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -283,12 +282,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -319,10 +319,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-wallet-icon lucide-wallet"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
           >
-            <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" />
-            <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -392,44 +393,46 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. EMERSON CABRAL",
+      miniTag: "QUEM É A DRA. ANA PAULA MORAES",
       title: "Minha trajetória",
       subtitle:
-        "Uma jornada guiada pelo compromisso com a justiça e o bem comum.",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+        "Atuação dedicada em Direito Previdenciário e Trabalhista com excelência.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Minha trajetória no Direito é marcada pela dedicação constante à
-          justiça e ao bem-estar daqueles que confiam no meu trabalho. Desde o
-          início da minha formação, entendi que a advocacia não é apenas uma
-          profissão, mas uma missão de representar, proteger e orientar com
-          responsabilidade.
+          Advogada inscrita na OAB/RS nº 110.155, Ana Paula Moraes é formada
+          pela Universidade Ritter dos Reis (Uniritter), com pós-graduação em
+          Direito Previdenciário pela Fundação Escola Superior do Ministério
+          Público do RS (FMP) e em Direito do Trabalho e Processo do Trabalho
+          pela Fundação Escola da Magistratura do Trabalho do Rio Grande do Sul
+          (FEMARGS).
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha trajetória no Direito é marcada pela dedicação constante à
-          justiça e ao bem-estar daqueles que confiam no meu trabalho. Desde o
-          início da minha formação, entendi que a advocacia não é apenas uma
-          profissão, mas uma missão de representar, proteger e orientar com
-          responsabilidade.
+          Advogada inscrita na OAB/RS nº 110.155, Ana Paula Moraes é formada
+          pela Universidade Ritter dos Reis (Uniritter), com pós-graduação em
+          Direito Previdenciário pela Fundação Escola Superior do Ministério
+          Público do RS (FMP) e em Direito do Trabalho e Processo do Trabalho
+          pela Fundação Escola da Magistratura do Trabalho do Rio Grande do Sul
+          (FEMARGS).
           <br />
           <br />
-          Ao longo dos anos, tive a oportunidade de atuar em diversas áreas do
-          Direito, sempre buscando soluções eficazes e personalizadas para cada
-          situação. Acredito que cada caso é único e merece atenção, escuta
-          ativa e estratégia. Mais do que oferecer conhecimento técnico, procuro
-          construir relações de confiança com meus clientes.
+          Com mais de seis anos de experiência, o escritório liderado por Ana
+          Paula atua exclusivamente nas áreas de Direito Previdenciário e
+          Trabalhista, oferecendo um atendimento personalizado e cuidadoso. O
+          compromisso é garantir aos clientes soluções jurídicas eficientes,
+          baseadas na ética, profissionalismo e excelência técnica.
           <br />
           <br />
-          Com ética, empatia e profissionalismo, sigo comprometido em oferecer
-          um atendimento humanizado, claro e acessível. Minha atuação é guiada
-          por valores sólidos, onde a busca pela justiça caminha lado a lado com
-          o respeito às pessoas e às suas histórias.
+          A missão do escritório é proporcionar segurança, praticidade e
+          resultados efetivos, tornando o acesso ao direito mais claro e
+          acessível, sempre respeitando as particularidades de cada caso e
+          buscando o melhor desfecho para seus clientes.
           <br />
           <br />
         </p>
@@ -448,10 +451,10 @@ const content = {
         subtitle:
           "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
@@ -492,7 +495,7 @@ const content = {
           stepNumber: 4,
           cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
