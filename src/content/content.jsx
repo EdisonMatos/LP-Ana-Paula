@@ -393,33 +393,46 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É A DRA. ANA PAULA MORAES",
+      title: "Minha trajetória",
+      subtitle:
+        "Atuação dedicada em Direito Previdenciário e Trabalhista com excelência.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Advogada inscrita na OAB/RS nº 110.155, Ana Paula Moraes é formada
+          pela Universidade Ritter dos Reis (Uniritter), com pós-graduação em
+          Direito Previdenciário pela Fundação Escola Superior do Ministério
+          Público do RS (FMP) e em Direito do Trabalho e Processo do Trabalho
+          pela Fundação Escola da Magistratura do Trabalho do Rio Grande do Sul
+          (FEMARGS).
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Advogada inscrita na OAB/RS nº 110.155, Ana Paula Moraes é formada
+          pela Universidade Ritter dos Reis (Uniritter), com pós-graduação em
+          Direito Previdenciário pela Fundação Escola Superior do Ministério
+          Público do RS (FMP) e em Direito do Trabalho e Processo do Trabalho
+          pela Fundação Escola da Magistratura do Trabalho do Rio Grande do Sul
+          (FEMARGS).
           <br />
           <br />
-          A_Definir
+          Com mais de seis anos de experiência, o escritório liderado por Ana
+          Paula atua exclusivamente nas áreas de Direito Previdenciário e
+          Trabalhista, oferecendo um atendimento personalizado e cuidadoso. O
+          compromisso é garantir aos clientes soluções jurídicas eficientes,
+          baseadas na ética, profissionalismo e excelência técnica.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          A missão do escritório é proporcionar segurança, praticidade e
+          resultados efetivos, tornando o acesso ao direito mais claro e
+          acessível, sempre respeitando as particularidades de cada caso e
+          buscando o melhor desfecho para seus clientes.
           <br />
           <br />
         </p>
@@ -433,14 +446,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
