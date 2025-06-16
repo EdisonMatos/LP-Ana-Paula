@@ -59,7 +59,7 @@ export const infos = {
   domain: "anapaulamoraesadvogada.com.br", // Sem "www"
   phone: {
     ddd: "51",
-    firstPart: "8456", // Apenas os 5 primeiros números (incluindo o 9)
+    firstPart: "98456", // Apenas os 5 primeiros números (incluindo o 9)
     secondPart: "5921", // Apenas os 4 últimos números
   },
   phoneSecundario: {
